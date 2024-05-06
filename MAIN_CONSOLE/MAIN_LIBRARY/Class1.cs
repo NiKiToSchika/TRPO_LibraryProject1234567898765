@@ -99,7 +99,7 @@ namespace MAIN_LIBRARY
         private string _Windows = "2";
 
 
-public string Name
+        public string Name
         {
             get { return _Name; }
             set { _Name = value; }
@@ -245,7 +245,7 @@ public string Name
         private string Org { get; set; }
 
 
-public Corpus(string name, string adress)
+        public Corpus(string name, string adress)
         {
             Name = name;
             Adress = adress;
