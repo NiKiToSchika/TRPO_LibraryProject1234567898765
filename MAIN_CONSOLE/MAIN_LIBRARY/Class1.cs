@@ -2,16 +2,12 @@
 using MAIN_LIBRARY;
 using System.Buffers;
 using System.Text.RegularExpressions;
-
-
-
 ///  ЭТО ВЕЛИКОЛЕПНАЯ БИБЛИОТЕКА КЛАССОВ
 ///  ВСЕ ЧТО ОТ ВАС НАДО - ЭТО СОЗДАТЬ СВОЙ СОБСТВЕННЫЙ !!КЛАСС!!
 ///  И НАД НИМ ПОДПИСАТЬ В ЧТО ОН, КТО ОН, КЕМ ОН.
 ///  ПРИ КОММИТЕ ВЫ УКАЗЫВАЕТЕ ВАРИАНТ
 ///  ЕСЛИ БИБЛИОТЕК ВДРУГ СТАЛО БОЛЬШЕ ЧЕМ ЭТО
 ///  ТО ВЫ СНОВА БУБЫЛДА ДУРАЦКАЯ И ВСЕ СЛОМАЛИ
-
 namespace MAIN_LIBRARY
 {
     /// <summary>
@@ -97,8 +93,6 @@ namespace MAIN_LIBRARY
         private Sotrudnic _sotrudnic = new Sotrudnic();
         private string _Seat = "23";
         private string _Windows = "2";
-
-
         public string Name
         {
             get { return _Name; }
@@ -243,8 +237,6 @@ namespace MAIN_LIBRARY
         private string Adress { get; set; }
         private string Comm { get; set; }
         private string Org { get; set; }
-
-
         public Corpus(string name, string adress)
         {
             Name = name;
